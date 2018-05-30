@@ -1,0 +1,211 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #f8f8f8;
+	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+}
+header {
+	width: 100%;
+	height: 60px;
+	background-color: white;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 3px #eeeeee;
+	padding: 0;
+	margin: 0;
+	*zoom: 1;
+}
+header::after {
+	display: table;
+	content: '';
+	clear: both;
+}
+#header_logo {
+	float: left;
+	background-color: #f36a5a;
+	width: 240.5px;
+	height: 61px;
+	padding: 2px;
+	box-sizing: border-box;
+}
+#header_logo img {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 5px;
+	width: 18px;
+	vertical-align: middle;
+}
+#header_logo h1 {
+	display: inline-block;
+	font-size: 20px;
+	color: white;
+	vertical-align: middle;
+
+}
+#user_pic {
+	float: right;
+	width: 80px;
+	height: 60px;
+	text-align: center;
+}
+#user_pic img {
+	width: 35px;
+	height: 35px;
+	margin-top: 10px;
+}
+#container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+nav {
+	float: left;
+	width: 240px;	
+	height: 100%;
+	background-color: #3e3e3e;
+	padding: 0;
+}
+nav ul {
+	box-sizing: border-box;
+	margin: 0;
+	margin-top: 20px;
+	padding: 0;
+	width: 240px;
+	height: 100%;
+}
+nav ul li {
+	width: 240px;
+	height: 50px;
+	margin: 0;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 7px;
+	border-bottom: 1px solid #464646;
+	line-height: 50px;
+}
+nav ul li a { 
+	text-decoration: none;
+	color: #a8a4a4;
+	margin-left: 40px;
+}
+section {
+	margin-left: 250px;
+}
+section #content {
+	margin-top: 80px;
+	margin-left: 70px;
+	font-size: 18px;
+}
+
+/*增加li效果*/
+nav ul li:nth-of-type(1) a::before{
+	background-color: transparent;
+	content: url(../image/grayfive.png);
+	box-sizing: border-box;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+nav ul li:nth-of-type(1):hover a {
+	color: #f36a5a;
+}
+nav ul li:nth-of-type(1):hover a::before{
+	content: url(../image/pinkfive.png);
+}
+nav ul li:nth-of-type(2) a::before{
+	background-color: transparent;
+	content: url(../image/grayone.png);
+	box-sizing: border-box;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+nav ul li:nth-of-type(2):hover a {
+	color: #f36a5a;
+}
+nav ul li:nth-of-type(2):hover a::before{
+	content: url(../image/pinkone.png);
+}
+nav ul li:nth-of-type(3) a::before{
+	background-color: transparent;
+	content: url(../image/graythree.png);
+	box-sizing: border-box;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+nav ul li:nth-of-type(3):hover a {
+	color: #f36a5a;
+}
+nav ul li:nth-of-type(3):hover a::before{
+	content: url(../image/pinkthree.png);
+}
+nav ul li:nth-of-type(4) a::before{
+	background-color: transparent;
+	content: url(../image/grayfour.png);
+	box-sizing: border-box;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+nav ul li:nth-of-type(4):hover a {
+	color: #f36a5a;
+}
+nav ul li:nth-of-type(4):hover a::before{
+	content: url(../image/pinkfour.png);
+}
+nav ul li:nth-of-type(5) a::before{
+	background-color: transparent;
+	content: url(../image/grayfive.png);
+	box-sizing: border-box;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+nav ul li:nth-of-type(5):hover a {
+	color: #f36a5a;
+}
+nav ul li:nth-of-type(5):hover a::before{
+	content: url(../image/pinkfive.png);
+}
+nav ul li:nth-of-type(6) a::before{
+	background-color: transparent;
+	content: url(../image/grayfour.png);
+	box-sizing: border-box;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+nav ul li:nth-of-type(6):hover a {
+	color: #f36a5a;
+}
+nav ul li:nth-of-type(6):hover a::before{
+	content: url(../image/pinkfour.png);
+}
+nav ul li:nth-of-type(7) a::before{
+	background-color: transparent;
+	content: url(../image/grayfour.png);
+	box-sizing: border-box;
+	width: 30px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: -2px;
+}
+nav ul li:nth-of-type(7):hover a {
+	color: #f36a5a;
+}
+nav ul li:nth-of-type(7):hover a::before{
+	content: url(../image/pinkfour.png);
+}
+nav ul #on_this_page {
+	background-color: #f8f8f8;
+}

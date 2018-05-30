@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app>
+ <servlet>
+    <servlet-name>ReadDir</servlet-name>
+    <servlet-class>myservlet.control.ReadDir_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>ReadDir</servlet-name>
+    <url-pattern>/ReadDir</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>ReadFile</servlet-name>
+    <servlet-class>myservlet.control.ReadFile_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>ReadFile</servlet-name>
+    <url-pattern>/ReadFile</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>upFile</servlet-name>
+    <servlet-class>myservlet.control.Upload_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>upFile</servlet-name>
+    <url-pattern>/upFile</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>writeFile</servlet-name>
+    <servlet-class>myservlet.control.Write_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>writeFile</servlet-name>
+    <url-pattern>/writeFile</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>DownFile</servlet-name>
+    <servlet-class>myservlet.control.Download_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>DownFile</servlet-name>
+    <url-pattern>/DownFile</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>DFile</servlet-name>
+    <servlet-class>myservlet.control.DFile_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>DFile</servlet-name>
+    <url-pattern>/DFile</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>GFile</servlet-name>
+    <servlet-class>myservlet.control.GFile_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>GFile</servlet-name>
+    <url-pattern>/GFile</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>helpRegister</servlet-name>
+    <servlet-class>myservlet.control.HandleRegister</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>helpRegister</servlet-name>
+    <url-pattern>/helpRegister</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>studentManage</servlet-name>
+    <servlet-class>myservlet.control.Example7_2_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>studentManage</servlet-name>
+    <url-pattern>/studentManage</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>insertServlet</servlet-name>
+    <servlet-class>myservlet.control.Shiyan2_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>insertServlet</servlet-name>
+    <url-pattern>/insertServlet</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>delStudent</servlet-name>
+    <servlet-class>myservlet.control.delStudent_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>delStudent</servlet-name>
+    <url-pattern>/delStudent</url-pattern>
+ </servlet-mapping>
+ <servlet>
+    <servlet-name>chaStudent</servlet-name>
+    <servlet-class>myservlet.control.gaiStudent_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>chaStudent</servlet-name>
+    <url-pattern>/chaStudent</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>deFile</servlet-name>
+    <servlet-class>myservlet.control.deFile_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>deFile</servlet-name>
+    <url-pattern>/deFile</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>helpLogin</servlet-name>
+    <servlet-class>myservlet.control.HandleLogin</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>helpLogin</servlet-name>
+    <url-pattern>/helpLogin</url-pattern>
+ </servlet-mapping>
+
+ <servlet>
+    <servlet-name>Gmm</servlet-name>
+    <servlet-class>myservlet.control.mmManage_Servlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+    <servlet-name>Gmm</servlet-name>
+    <url-pattern>/Gmm</url-pattern>
+ </servlet-mapping>
+</web-app>

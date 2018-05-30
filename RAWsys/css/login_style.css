@@ -1,0 +1,77 @@
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+	color: #5c606a;
+}
+#container {
+	background-color: black;
+	background-image: url(../image/beijing.png);
+	width: 100%;
+	height: 100%;
+	background-position: 100% 100%;
+	padding: 10px;
+}
+#midbox {
+	margin: 50px auto 0;
+	width: 300px;
+	height: 500px;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 6px;
+	text-align: center;
+	box-sizing: border-box;
+	position: relative;
+}
+#box_logo {
+	width: 250px;
+	margin: 50px auto 10px;
+}
+#box_info {
+	font-size: 23px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+#midbox input {
+	margin: 10px auto;
+	color: #000000;
+}
+#midbox label {
+	display: inline-block;
+	margin: 20px 5px 15px 20px;
+}
+#st_radio {
+	display: inline-block;
+}
+#tishi {
+	color: #ac4941;
+	height: 20px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+#box_submit {
+	width: 78px;
+	height: 28px;
+	background-color: #27313a;
+	color: #ffffff;
+	border-width: 0;
+	float: right;
+	margin-right: 40px;
+}
+#jump {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+}
+#jump a {
+	text-decoration: none;
+	color: #27313a;
+	font-size: 15px;
+	font-weight: 600;
+}
+#jump a:hover{
+	color: white;
+}
